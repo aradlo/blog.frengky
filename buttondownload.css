@@ -1,6 +1,6 @@
 /* Style buttons */
 .btn {
-  background-color: #7E2419;
+  background-color: #DD9933;
   border: none;
   color: white;
   padding: 12px 30px;
@@ -10,5 +10,5 @@
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: #DD9933;
+  background-color: #7E2419;
 }
