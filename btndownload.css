@@ -1,8 +1,8 @@
 /* Style buttons */
 .btn {
-  background-color: #7E2419;
+  background-color: #DD9933;
   border: none;
-  color: white;
+  color: #333333;
   padding: 12px 30px;
   cursor: pointer;
   font-size: 20px;
@@ -10,5 +10,25 @@
 
 /* Darker background on mouse-over */
 .btn:hover {
-  background-color: #DD9933;
+  background-color: #7E2419;
+}
+
+/* unvisited link */
+a:link {
+  color: white;
+}
+
+/* visited link */
+a:visited {
+  color: #FFF000;
+}
+
+/* mouse over link */
+a:hover {
+  color: #DD9933;
+}
+
+/* selected link */
+a:active {
+  color: #333333;
 }
